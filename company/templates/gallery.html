@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/mytheme.css">
+    <script type="text/javascript" src="/static/js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/css/creative.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/creative-min.css">
+    <link href="/static/css/creative.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/theme.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/hover.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Our Design | gallery </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="/static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link href='https://cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/css/fontawesome.min.css'rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link href="/static/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/creative.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/theme.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/hover.css">
+
+
+
+    <style>
+    h1 {
+            -moz-animation-duration: 3s;
+            -webkit-animation-duration: 3s;
+            -moz-animation-name: slidein;
+            -webkit-animation-name: slidein;
+         }
+         @-moz-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            75% {
+               font-size:300%;
+               margin-left:25%;
+               width:150%;
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
+         @-webkit-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            75% {
+               font-size:300%;
+               margin-left:25%;
+               width:150%;
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+             }
+           }
+           h3 {
+                   -moz-animation-duration: 3s;
+                   -webkit-animation-duration: 3s;
+                   -moz-animation-name: slidein;
+                   -webkit-animation-name: slidein;
+                }
+                @-moz-keyframes slidein {
+                   from {
+                      margin-right:100%;
+                      width:300%
+                   }
+                   75% {
+                      font-size:300%;
+                      margin-right: :25%;
+                      width:150%;
+                   }
+                   to {
+                      margin-right: t:0%;
+                      width:100%;
+                   }
+                }
+                @-webkit-keyframes slidein {
+                   from {
+                      margin-right:100%;
+                      width:300%
+                   }
+                   75% {
+                      font-size:300%;
+                      margin-right: :25%;
+                      width:150%;
+                   }
+                   to {
+                      margin-right:0%;
+                      width:100%;
+                    }
+                  }
+
+    blockquote {
+    margin :auto;
+    width: 600px;
+    height: 200px;
+    background-color: black;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+    0%   {background-color: pink;}
+    25%  {background-color: orange;}
+    50%  {background-color: yellow;}
+    100% {background-color: pink;}
+    }
+
+    /* Standard syntax */
+    @keyframes example {
+    0%   {background-color: pink;}
+    25%  {background-color: orange;}
+    50%  {background-color: yellow;}
+    100% {background-color: pink;}
+    }
+    p.a {
+    white-space: nowrap;
+    width: 1000px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    border: 1px ;
+    font-style: oblique;
+    text-justify: inter-word;
+    font-size: 1.3vw;
+    position: relative;
+    right: 90px;
+
+    }
+
+    p.a:hover {
+    overflow: visible;
+    }
+
+
+    .parallax {
+    /* The image used */
+    background-image: url('/static/img/wall.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .marg {
+    width:300px;
+    margin: auto;
+    border: 1px;
+    }
+    .opacity {
+    opacity:0.6;
+    }
+
+    .tran {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+    }
+    .mySlides {display:none}
+    p.inset {border-style: groove;
+    margin-left: 30px;
+    margin-right: 30px;}
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    }
+
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 12px;
+    z-index: 1;
+
+    }
+
+    .dropdown:hover .dropdown-content {
+    display: inline-flex;
+    }
+    .hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    }
+
+    .hvr-grow:hover,
+    .hvr-grow:focus,
+    .hvr-grow:active {
+    transform: scale(1.1);
+    }
+
+
+    </style>
+
+</head>
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-header opacity" id="mainNav" style="background-color:black">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="/static/img/logo1.png" height=70 width=220 ></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger hvr-float" href="/index/">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  hvr-float" href="/about/">ABOUT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link js-scroll-trigger hvr-float" href="">SERVICES</a>
+              <div class='dropdown-content'>
+                <ul type='disc' style="color:white;"><font color='white' size=4>
+              <b>  <li color='white' ><a href='/space-planning/'><h5 style="color:white;">Space Planning & Design</h5></a></li>  <br>
+                  <li><a href='/kitchen/'><h5 style="color:white;">Modular Kitchen</h5></a></li><br>
+                    <li><a href='#'><h5 style="color:white;">Bathrooms</h5></a></li><br>
+                        <li><a href='#'><h5 style="color:white;">Wardrobe & Storage Units</h5></a></li><br>
+                            <li><a href='#'><h5 style="color:white;">Astrology</h5></a></li><br>
+                            <li>  <a href='/residential/'><h5 style="color:white;">Residential</h5></a></li><br>
+                          </b>
+                        </font>
+                          </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger hvr-float" href="/gallery/">PORTFOLIO</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger hvr-float" href="#contact">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger hvr-float" href="/query/">INQUIRY</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+<section>
+<div class="gallery">
+    <div class="container" align="center">
+        <a href="/static/img/images1/1.jpg" data-lightbox="Gallery"><img src="/static/img/images1/1.jpg"></a>
+        <a href="/static/img/images1/2.jpg" data-lightbox="Gallery"><img src="/static/img/images1/2.jpg"></a>
+        <a href="/static/img/images1/3.jpg" data-lightbox="Gallery"><img src="/static/img/images1/3.jpg"></a>
+        <a href="/static/img/images1/4.jpg" data-lightbox="Gallery"><img src="/static/img/images1/4.jpg"></a>
+        <a href="/static/img/images1/5.jpg" data-lightbox="Gallery"><img src="/static/img/images1/5.jpg"></a>
+        <a href="/static/img/images1/6.jpg" data-lightbox="Gallery"><img src="/static/img/images1/6.jpg"></a>
+        <a href="/static/img/images1/7.jpg" data-lightbox="Gallery"><img src="/static/img/images1/7.jpg"></a>
+        <a href="/static/img/images1/8.jpg" data-lightbox="Gallery"><img src="/static/img/images1/8.jpg"></a>
+        <a href="/static/img/images1/9.jpg" data-lightbox="Gallery"><img src="/static/img/images1/9.jpg"></a>
+        <a href="/static/img/images1/10.jpg" data-lightbox="Gallery"><img src="/static/img/images1/10.jpg"></a>
+        <a href="/static/img/images1/11.jpg" data-lightbox="Gallery"><img src="/static/img/images1/11.jpg"></a>
+        <a href="/static/img/images1/12.jpg"data-lightbox="Gallery"><img src="/static/img/images1/12.jpg"></a>
+        <a href="/static/img/images1/13.jpg" data-lightbox="Gallery"><img src="/static/img/images1/13.jpg"></a>
+        <a href="/static/img/images1/14.jpg" data-lightbox="Gallery"><img src="/static/img/images1/14.jpg"></a>
+        <a href="/static/img/images1/15.jpg" data-lightbox="Gallery"><img src="/static/img/images1/15.jpg"></a>
+        <a href="/static/img/images1/16.jpg" data-lightbox="Gallery"><img src="/static/img/images1/16.jpg"></a>
+        <a href="/static/img/images1/17.jpg" data-lightbox="Gallery"><img src="/static/img/images1/17.jpg"></a>
+        <a href="/static/img/images1/18.jpg" data-lightbox="Gallery"><img src="/static/img/images1/18.jpg"></a>
+    </div>
+</div>
+</section>
+<div class="footer ">
+   <footer>
+       <div id="sub-footer">
+         <div >
+           <div class="" style="background-color:black; ">
+             <div class="copyright text-white opacity">
+              <center>
+
+                 <div class='row'>
+                   <div class='col-lg-4 ml-auto'style="margin-top:20px;">
+                   <p><b><p><b>  <i class="fa fa-phone fa-2x"></i></b></p></b></p>
+                    <i class="fa fa-mobile "></i>+919812062666<br>
+                    <i class="fa fa-mobile"></i>+919560789429<br>
+                  </diV>
+
+                  <div class='col-lg-4 ml-auto ' style="margin-top:20px;">
+                  <center>  <br><p><b>  <i class="fa fa-envelope-open fa-2x"></i></b></p>
+                    <i class="fa fa-envelope "></i>rishabhmittal25@gmail.com<br>
+                    <i class="fa fa-envelope"></i> ar.rahulbodh17488@gmail.com<br></center>
+                  </div>
+                  <div class="col-lg-4 ml-auto" style="margin-top:20px;">
+
+                        <p class="social-network">
+
+                      <p><b>  <i class="fa fa-user fa-2x"></i></b></p>
+
+                          <a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-2x hvr-grow"></i></a>
+                          <a href="#" data-placement="top" title="Instagram"><i class="fa fa-instagram fa-2x hvr-grow"></i></a>
+                         <a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-2x hvr-grow"></i></a><br>
+
+                  </div>
+                 </div>
+
+
+                 <marquee width=600 height=40 direction="LEFT" behavior="scroll"
+                 SCROLLAMOUNT=10 scrolldelay=1><I><CENTER><font size=5 color="white">
+                 45,NEW ANAJ MANDI,BIWANI,HARYANA </font</CENTER></I></marquee>
+               </center>
+         </div>
+               <center>
+               <span>&copy; OUR DESIGN  2018 All right reserved.</span>
+
+             </center>
+             </div>
+         </div>
+       </div>
+     </footer>
+   </div>
+
+
+
+
+
+<script src="/static/js/jquery.js"></script>
+<script src="/static/js/jquery.easing.1.3.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/jquery.fancybox.pack.js"></script>
+<script src="/static/js/jquery.fancybox-media.js"></script>
+<script src="/static/js/portfolio/jquery.quicksand.js"></script>
+<script src="/static/js/portfolio/setting.js"></script>
+<script src="/static/js/jquery.flexslider.js"></script>
+<script src="/static/js/animate.js"></script>
+<script src="/static/js/owl-carousel/owl.carousel.js"></script>
+<script src="/static/js/custom.js"></script>
+</body>
+</html>

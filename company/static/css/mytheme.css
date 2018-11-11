@@ -1,0 +1,163 @@
+body,html
+{
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+ *{
+margin: 0px;
+padding: 0px;
+}
+
+
+
+
+body {
+    background-image: url("/static/img/images1/back3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+
+body h1{
+    text-align: center;
+    font-size: 100px;
+    padding: 100px ;
+    font-weight: lighter;
+    color: white;
+    font-family: 'Shrikhand' ;
+}
+
+
+
+
+
+
+
+.gallery{
+
+
+    margin: 10px 100px;
+    padding: 0px;
+
+
+}
+
+
+
+
+/*
+.Gallery img{
+    max-width: 250px;
+    max-height: 250px;
+    min-height: 250px;
+    min-width: 250px;
+    filter: blur(0px);
+    transition: 1s;
+    padding: 5px;
+}
+
+.Gallery img:hover{
+    filter: blur(5px);
+    transform: scale(1.1);
+}
+
+*/
+.gallery img
+{
+    max-width: 250px;
+    max-height: 250px;
+    min-height: 250px;
+    min-width: 250px;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+img filter {
+    filter: blur(0px);
+    transition: 5s;
+}
+
+.gallery img:hover{
+    transition-duration: 1s;
+    filter: blur(5px);
+    transform: scale(1.1);
+}
+
+
+
+
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+
+}
+
+
+
+ul li {
+ float: right;
+ font-size: 20px;
+ height: 40px;
+ line-height: 80px;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 25px;
+
+}
+
+
+
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+
+
+
+
+.sec2 {
+    margin: 50px 50px;
+    padding: 0px;
+    width: 100%;
+    height: 30vh;
+
+}
+
+.container
+{
+
+    padding: 22px;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-width: 100%;
+    min-height: 100%;
+    align-items: center;
+    border-radius: 65%;
+}
+
+
+ul img {
+    float: left;
+    align-items: left;
+    list-style: none;
+    line-height: 60px;
+    max-height: 70px;
+    margin: 0px 70px;
+
+}
